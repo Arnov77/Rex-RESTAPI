@@ -142,7 +142,7 @@
     {
       "id": 9,
       "name": "Music Resolver",
-      "method": "GET",
+      "method": "POST",
       "action": "/api/music/resolve",
       "description": "Ambil info lagu, album, atau playlist dari URL Spotify, Apple Music, atau SoundCloud.",
       "params": [
@@ -157,7 +157,7 @@
     {
       "id": 10,
       "name": "Spotify Downloader",
-      "method": "GET",
+      "method": "POST",
       "action": "/api/music/spotify/download",
       "description": "Download lagu Spotify menjadi MP3 dari URL track. Untuk album/playlist, gunakan /api/music/resolve untuk daftar URL track.",
       "params": [
@@ -172,7 +172,7 @@
     {
       "id": 11,
       "name": "Apple Music Downloader",
-      "method": "GET",
+      "method": "POST",
       "action": "/api/music/apple/download",
       "description": "Download lagu Apple Music menjadi MP3 dari URL track. Untuk album, gunakan /api/music/resolve untuk daftar URL track.",
       "params": [
@@ -187,7 +187,7 @@
     {
       "id": 12,
       "name": "SoundCloud Downloader",
-      "method": "GET",
+      "method": "POST",
       "action": "/api/music/soundcloud/download",
       "description": "Download lagu SoundCloud menjadi MP3 dari URL track. Untuk playlist/set, gunakan /api/music/resolve untuk daftar URL track.",
       "params": [
